@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "ecomerce-demo",
+  "functions": {
+    "main.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "main" }
+  ],
+  "trailingSlash": false
+}
