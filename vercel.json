@@ -2,7 +2,7 @@
   "version": 2,
   "name": "ecomerce-demo",
   "functions": {
-    "./main.js": {
+    "/api/main.js": {
       "memory": 128,
       "maxDuration": 60
     }
