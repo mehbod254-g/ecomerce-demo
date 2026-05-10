@@ -1,0 +1,28 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "50b2f6c1-d5c6-4c56-a71a-2ff9d24aa95d"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "packet-up",
+          "path": "/"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom"
+    }
+  ]
+}
