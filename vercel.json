@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "name": "ecomerce-demo",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/main" }
-  ],
-  "trailingSlash": false
-}
